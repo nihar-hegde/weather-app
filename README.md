@@ -18,7 +18,7 @@ git clone https://github.com/nihar-hegde/weather-app.git
 ```
 
 
-install using the below command.
+### install using the below command.
 ```
 npm install
 
