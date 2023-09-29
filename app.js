@@ -11,7 +11,7 @@ Weather.prototype.loadAnimation = function () {
     countAjax++;
 
     // Update the number of expected AJAX requests based on your application's needs.
-    var expectedAjaxCount = 1; // For current weather (modify as needed)
+    var expectedAjaxCount = 1; // For current weather
 
     if (countAjax === expectedAjaxCount) {
       $(".loading").fadeOut();
@@ -265,7 +265,7 @@ function animate(selector, keyFrameName, duration, delay = 0, timing = "ease", i
   }
 }
 
-/* https://codepen.io/sinapsis7 */
+
 
 function loadTooltips() {
   //search for elements that have data-tooltips attributes on the web page, and display it.
